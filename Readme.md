@@ -5,7 +5,7 @@
 
 ---
 
-«Cat Energy» is a online pet food store. The main feature of this project is adaptive layout and image optimization for screens with different DPI.
+«Cat Energy» is an online pet food store. The main feature of this project is adaptive layout and image optimization for screens with different DPI.
 
 <img  width="100%" alt="Project preview" src="./repository files/preview.jpg">
 
