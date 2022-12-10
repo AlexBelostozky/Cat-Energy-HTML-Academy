@@ -1,58 +1,48 @@
-# Личный проект «Кэт энерджи»
+# Learning project «Cat Energy»
 
-* Студент: [Александр Белостоцкий](https://up.htmlacademy.ru/adaptive/26/user/2026639).
-* Наставник: [Роман Желтов](https://htmlacademy.ru/profile/id1145037).
-
----
-
-**Обратите внимание, что папка с вашими исходными файлами — `source/`.**
-
-Полезный файл:
-
-- [Contributing.md](Contributing.md) — руководство по внесению изменений.
-
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`, `package-lock.json`, `package.json`._
+* Student: [Alexander Belostozky](https://up.htmlacademy.ru/javascript/27/user/2026639)
+* Mentor: [Roman Zheltov](https://htmlacademy.ru/profile/id1145037)
 
 ---
 
-### Памятка
+«Cat Energy» is a online pet food store. The main feature of this project is adaptive layout and image optimization for screens with different DPI.
 
-#### 1. Зарегистрируйтесь на Гитхабе
+<img  width="100%" alt="Project preview" src="./repository files/preview.jpg">
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+---
 
-#### 2. Создайте форк
+## Statement of work
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/2026639-cat-energy-26) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+Only Figma UI design were originally given.
 
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808133-3a7ace00-a190-11e9-9d29-401b02036a9c.jpg">
+And my task was to create the **adaptive HTML layout** for mobile, tablet and desktop (Chrome, Firefox, Safari friendly) using:
+- **BEM** methodology
+- **Less** preprocessor
+- **image adaptation** for screens with different DPI
+- **Gulp** automatisation
+- **PixelPerfect** precision
 
-Получится вот так:
+---
 
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808135-3a7ace00-a190-11e9-9a8d-7390b3784c65.jpg">
+## Results
 
-#### 3. Клонируйте репозиторий на свой компьютер
+I successfully completed the project on time and received a certificate of successful workshop completion.
 
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
+<a href="https://assets.htmlacademy.ru/certificates/intensive/335/2026639.pdf">
+  <img  width="307" height="432" alt="Certificate" src="./repository files/certificate.png">
+</a>
 
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808136-3a7ace00-a190-11e9-884f-24621e62b29a.jpg">
+---
 
-Клонировать репозиторий можно так:
-
-```
-git clone SSH-адрес_вашего_форка
-```
-
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
+## Improvement plans
+Further I want to add the following improvements to the project:
+- [ ] add a map API in contacts section
+- [ ] make cat before / cat after slider draggable
+- [ ] add the cart page and possibility to add goods to cart
 
 ---
 
 <a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github-2.png"></a>
 
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Адаптивная вёрстка и автоматизация](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
-
-[check-image]: https://github.com/htmlacademy-adaptive/2026639-cat-energy-26/workflows/Project%20check/badge.svg?branch=master
-[check-url]: https://github.com/htmlacademy-adaptive/2026639-cat-energy-26/actions
+Repository was created for professional online-course learning «[HTML & CSS.
+Adaptive Website Coding and Automation](https://htmlacademy.ru/intensive/adaptive)» from [HTML Academy](https://htmlacademy.ru).
