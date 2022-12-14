@@ -12,6 +12,7 @@ import svgo from 'gulp-svgmin';
 import svgstore from 'gulp-svgstore';
 import { deleteAsync as del } from "del";
 import browser from 'browser-sync';
+import ghPages from 'gulp-gh-pages';
 
 // Styles
 
@@ -145,6 +146,18 @@ export const watcher = () => {
   gulp.watch('source/*.html', gulp.series(html, reload));
 }
 
+// Deploy
+
+// export const deploy = () => {
+//   return gulp.src('build/**/*')
+//     .pipe(ghPages());
+// }
+
+gulp.task('deploy', function () {
+  return gulp.src("./build/**/*")
+    .pipe(ghPages())
+});
+
 // Build
 
 export const build = gulp.series(
@@ -158,16 +171,6 @@ export const build = gulp.series(
   sprite,
   createWebp
 );
-
-// Deploy
-
-var gulp = require('gulp');
-var ghPages = require('gulp-gh-pages');
-
-gulp.task('deploy', function() {
-  return gulp.src('./build/**/*')
-    .pipe(ghPages());
-});
 
 // Default
 export default gulp.series(
